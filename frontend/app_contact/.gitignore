@@ -1,0 +1,43 @@
+# Flutter/Dart/Pub specific
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins
+pubspec.lock
+
+# Build outputs
+build/
+android/app/build/
+
+# iOS/Android specific
+*.gradle
+*.lock
+*.log
+.idea/
+*.iml
+*.ipr
+.DS_Store
+*.swp
+android/local.properties
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Web related
+web/.dart_tool/
+web/.packages
+
+# Other
+*.log
+*.temp
+*.tmp
+*.bak
+*.orig
+*.swp
+*.env
+*.yaml~
+
+# VS Code
+.vscode/
